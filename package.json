@@ -1,0 +1,22 @@
+{
+  "name": "curso-asincronismo-javascript",
+  "version": "1.0.0",
+  "description": "Curso de Asincronismo con JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bernullys/Curso-Asincronismo-JavaScript.git"
+  },
+  "keywords": [
+    "javaScript"
+  ],
+  "author": "Bernardo Antonio Dávila Rondón <bernardoantoniod@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bernullys/Curso-Asincronismo-JavaScript/issues"
+  },
+  "homepage": "https://github.com/Bernullys/Curso-Asincronismo-JavaScript#readme"
+}
