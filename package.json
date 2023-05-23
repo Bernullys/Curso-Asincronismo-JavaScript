@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Bernullys/Curso-Asincronismo-JavaScript/issues"
   },
-  "homepage": "https://github.com/Bernullys/Curso-Asincronismo-JavaScript#readme"
+  "homepage": "https://github.com/Bernullys/Curso-Asincronismo-JavaScript#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
