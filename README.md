@@ -70,3 +70,7 @@ Los códigos más comunes a la hora de interactuar con una API son:
     404     Not Found               Indica que no existe el recurso que se está intentando acceder.
     500     Internal Server Error   Indica que algo falló, es un error que retorna el servidor cuando la solicitud no pudo ser procesada.
 
+
+Clase 9: Fetch Data --- Todo explicado en el archivo de la clase.
+
+Clase 10: Callback hell --- explicacion del llamado de la api, utilizando callback anidado. Ademas se cambio el script en el package.json para ejecutar el codigo haciendo este comando: npm run aCallbackFunction

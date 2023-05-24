@@ -23,9 +23,9 @@ function fetchData(urlApi, aCallbackFunction) {
 
 // ahora se va a hacer el llamado de la funcion, pasarle el callback 
 
-fetchData(`${API}/products`, function (error1, data1) {
-    if (error1) return console.error(error1);
-    fetchData(`${API}/products/${data1[0].id}`, function(error2, data2) {
+fetchData(`${API}/products`, function (error1, data1) { // se ingresan los dos parametros de la funcion que hicimos aCallbackFunction // se obtienen los datos en data1
+    if (error1) return console.error(error1);   // se valida si ocurre un error, en tal caso para y muestra el error
+    fetchData(`${API}/products/${data1[0].id}`, function(error2, data2) { // se ingresa a otro link de la api y se corre de nuevo la funcion aCallbackFunction, se valida el error y si no hay se tienen los datos de data1
         if (error2) return console.error(error2);
         fetchData(`${API}/categories/${data2?.category?.id}`, function(error3, data3) {
             if (error3) return console.error(error3);
