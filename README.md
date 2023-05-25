@@ -73,4 +73,11 @@ Los códigos más comunes a la hora de interactuar con una API son:
 
 Clase 9: Fetch Data --- Todo explicado en el archivo de la clase.
 
-Clase 10: Callback hell --- explicacion del llamado de la api, utilizando callback anidado. Ademas se cambio el script en el package.json para ejecutar el codigo haciendo este comando: npm run aCallbackFunction
+Clase 10: Callback hell --- explicacion del llamado de la api, utilizando callback anidado. Ademas se cambio el script en el package.json para ejecutar el codigo haciendo este comando: npm run aCallbackFunction.
+
+Clase 11: Promise --- Que son las promesas --- Es una funcion que recive dos funciones. Y despues de hecha cuando se ejecuta se utiliza then para recibir el resolve y catch para tomar el reject. Y al final se usa finally para dar un mensaje de que la promesa se realizo.
+
+Es algo que va a pasar. Pero cuando? Ahora de una vez, en un rato o algun tiempo ó nunca.
+Las promesas tienen tres estados: Pendiente: cuando se esta ejecutando. Cumplido: ha regresado la información deseada. Rechazado.
+
+
