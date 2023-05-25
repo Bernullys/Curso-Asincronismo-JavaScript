@@ -81,3 +81,8 @@ Es algo que va a pasar. Pero cuando? Ahora de una vez, en un rato o algun tiempo
 Las promesas tienen tres estados: Pendiente: cuando se esta ejecutando. Cumplido: ha regresado la información deseada. Rechazado.
 
 
+Clase 13:   Fetch
+
+Haciendo soliditudes a la API con promesas. Hay que instalar node-fetch en la misma carpeta del archivo no la root. Importar node-fetch (es una clase que esta formada con promesas).
+
+
