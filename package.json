@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/Bernullys/Curso-Asincronismo-JavaScript#readme",
   "dependencies": {
+    "node-fetch": "^3.3.1",
     "xmlhttprequest": "^1.8.0"
   }
 }
