@@ -88,3 +88,15 @@ OJO: se importa para poder correrlo en nuestra consola porque cuando se utiliza 
 
 
 Clase 14: Fetch POST: crear productos en la API --- Ojo: la documentacion de la API dice la manera.
+
+En el ejemplo de la clase se usa POST para guardar (enviar a la API) información en lugar de obtener con GET (recibir).
+Hay permisos que se deben tomar en cuenta para que el intercambio sea seguro, hay que especificar el modo (mode), aquí se indica si se permite solicitudes de origen cruzado.
+Un origen tiene dominio/protocolo/puerto, un origen cruzado denominado “Cross Origin” es la palabra que se utiliza para denominar el tipo de peticiones que se realizan a un dominio diferente del dominio de origen desde donde se realiza la petición.
+Así que si se coloca cors, indica que se permiten ciertas solicitudes predeterminadas de origen cruzado como GET y POST para salvaguardar y evitar manipulaciones maliciosas.
+Ejemplos de modificar con PUT y borrar con DELETE a la API.
+
+
+Clase 15: Funciones asíncronas:
+async es una funcion asincrona que devuelve un objeto.
+async para la funcion y await para el cuerpo de la funcion que se va a ejecutar.
+async y await no bloquean la ejecucion del codigo, por lo tanto mientras se resuelven las promesas, sigue corriendo el codigo.
