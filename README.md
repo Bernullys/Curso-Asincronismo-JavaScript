@@ -84,5 +84,7 @@ Las promesas tienen tres estados: Pendiente: cuando se esta ejecutando. Cumplido
 Clase 13:   Fetch
 
 Haciendo soliditudes a la API con promesas. Hay que instalar node-fetch en la misma carpeta del archivo no la root. Importar node-fetch (es una clase que esta formada con promesas).
+OJO: se importa para poder correrlo en nuestra consola porque cuando se utiliza en la web, los navegadores tienen el fetch incluido.
 
 
+Clase 14: Fetch POST: crear productos en la API --- Ojo: la documentacion de la API dice la manera.
