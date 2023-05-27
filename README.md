@@ -124,4 +124,17 @@ In the example above, the fetchData function is declared as async, which allows 
 Using await in this manner makes the code appear more synchronous and easier to read, as it eliminates the need for deeply nested callbacks or chaining .then() methods.
 It's important to note that the function containing await must be declared as async, as regular functions cannot use await directly.
 
-Clase 17: Como enfrentar los errores: no estresarte. Usar Google, Usar ChatGPT. Tomar papel y lapiz. Platicar el problema (conmigo mismo)
+Clase 18: Como enfrentar los errores: no estresarte. Usar Google, Usar ChatGPT. Tomar papel y lapiz. Platicar el problema (conmigo mismo).
+
+
+Clase 19: Generators: podemos utilizar un iterador. Pausar y retomar segun sea el caso.
+
+La estructura del Generador consta con la palabra function seguido de un asterísco * : function* ésta es una función generadora heredada.
+El resultado que se quiere obtener se coloca al lado derecho de yield, puede ser de cualquier tipo (string, numérico, objetos, etc) y se puede tener tantos yield que se desee.
+Para poder iterar con el generador, se puede inicializar un valor con la función generadora.
+Entre las propiedades del iterador está next().
+next() permite acceder a la función del generador y obtener con yield dos valores: value y el estado de done, es decir si tenemos yield 1; y mandamos a imprimir el resultado con next() obtenemos `{value: 1, done: false}’:
+El 1 por el valor al lado derecho del primer yield.
+Y done es false porque mientras haya otro yield por operar será falso.
+Será true cuando se ejecute n veces next() y la salida mostrará {value: undefined, done: true}. Ésto se debe a que ya no hay mas nada que mostrar, porque se mandó a imprimir el n elemento.
+Para obtener solo el valor de value, se escribe next().value
