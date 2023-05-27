@@ -100,3 +100,28 @@ Clase 15: Funciones asíncronas:
 async es una funcion asincrona que devuelve un objeto.
 async para la funcion y await para el cuerpo de la funcion que se va a ejecutar.
 async y await no bloquean la ejecucion del codigo, por lo tanto mientras se resuelven las promesas, sigue corriendo el codigo.
+
+The await keyword is used in an async function to pause the execution of that function until a promise is resolved. It can only be used within an async function
+When you use await before a promise, it suspends the execution of the async function until the promise settles, either fulfilled or rejected. While waiting for the promise to resolve, the await expression yields the resolved value. 
+
+Clase 16: Try and catch:
+
+If the promise is rejected, it throws an error that can be caught using a try/catch block.
+
+async function fetchData() {
+  try {
+    const response = await fetch('https://api.example.com/data');
+    const data = await response.json();
+    console.log(data);
+  } catch (error) {
+    console.error('Error:', error);
+  }
+}
+
+fetchData();
+
+In the example above, the fetchData function is declared as async, which allows the usage of await inside it. The await keyword is used twice: first to wait for the fetch request to complete and then to wait for the response to be converted to JSON.
+Using await in this manner makes the code appear more synchronous and easier to read, as it eliminates the need for deeply nested callbacks or chaining .then() methods.
+It's important to note that the function containing await must be declared as async, as regular functions cannot use await directly.
+
+Clase 17: Como enfrentar los errores: no estresarte. Usar Google, Usar ChatGPT. Tomar papel y lapiz. Platicar el problema (conmigo mismo)
