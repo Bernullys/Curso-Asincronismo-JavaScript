@@ -5,7 +5,7 @@ const API = "https://api.escuelajs.co/api/v1";
 
 async function fetchData(urlApi) {  // esta funcion va por los datos y luego espera a transformarlos 
     const response = await fetch(urlApi); // recordemos que fetch utiliza la logica de las promesas.
-    const data = await response.json();
+    const data = await response.json();     // aqui nos entregara un objeto que podemos iterar.
     return data;
 }
 

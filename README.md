@@ -138,3 +138,7 @@ El 1 por el valor al lado derecho del primer yield.
 Y done es false porque mientras haya otro yield por operar será falso.
 Será true cuando se ejecute n veces next() y la salida mostrará {value: undefined, done: true}. Ésto se debe a que ya no hay mas nada que mostrar, porque se mandó a imprimir el n elemento.
 Para obtener solo el valor de value, se escribe next().value
+
+
+Clase 20: Proyecto del curso.
+
